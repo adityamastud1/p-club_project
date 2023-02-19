@@ -1,0 +1,279 @@
+html{
+   scroll-behavior: smooth;
+}
+
+*{
+   padding:0;
+   margin:0;
+}
+:root{--navbar-height: 59px}
+.sticky{
+   position: fixed;
+   width: 100%;
+}
+.header{
+   background-color: white;
+   box-shadow: 0px 8px 12px rgba(56, 35, 35, 0.599);
+}
+.logo{
+   display: flex;
+   padding-left: 54px;
+}
+.sitename{
+   padding-top: 44px;
+   padding-left: 25px;
+   font-family: 'Comfortaa', cursive;
+   font-size: 45px;
+}
+.searchbar{
+ 
+   margin-left: 100px;
+   margin-right: 50px;
+   border-style: solid;
+   height: 40%;
+   width: 28%;
+   border-radius: 26px;
+   background-color: rgba(250, 235, 215, 0.604);
+   border-color: white;
+}
+.searchbar input{
+   background: transparent;
+   flex: 1;
+   border: 0;
+   outline: none;
+   padding-top: 7px;
+   padding-left: 10px;
+   padding-right: 280px;
+   font-size: 20px;
+   font-family: 'Poppins', sans-serif;
+}
+::placeholder{color: rgb(98, 51, 4);}
+.searchbar button i{
+   width: 20px;
+   height: 10px;
+   
+}
+.searchbar button{
+   background: #0000003d;
+   cursor: pointer;
+   width: 35px;
+   height: 35px;
+   border: 0;
+   border-radius: 50%;
+   padding-left: 0px;
+   padding-right: 0px;
+   padding-bottom: 0px;
+   margin-bottom: 3px;
+}
+.navbar{
+   display: flex;
+   align-items: center;
+   height: 119px;
+}
+.navbar ul{
+   display: flex;
+}
+
+.navbar ul li{
+   list-style: none;
+}
+.navbar ul li a{
+   color:rgb(24, 23, 23);
+   display: block;
+   padding: 9px 22px;
+   text-decoration: none;
+}
+.navbar ul li :hover{
+   color:rgb(136, 18, 18);
+}
+.pfp{
+   height: 59px;
+   border-radius: 29px;
+   margin-top: 15px;
+   margin-left: 29px;
+   margin-bottom: 15px;
+}
+
+.ulfirst{
+   display: flex;
+   padding-left: 100px;
+}
+.ulfirstitem{
+   list-style: none;
+   padding-left: 10px;
+   padding-right:30px;
+   font-size: 20px;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 600;
+}
+.jhabi{
+   padding-left: 50px;
+}
+/* HOMEPAGE */
+
+#home::before{
+   content: "";
+   position: absolute;
+   background: url('pexels-andrea-piacquadio-3769747.jpg') no-repeat center center/cover;
+   height: 100%;
+   width:100%;
+   z-index: -1;
+   opacity:0.84;
+}
+
+.homecontent{
+   padding-left: 120px;
+}
+
+.homie{
+   display: flex;
+   padding-left: 0px;
+   
+}
+.homie ul{
+   display: flex;
+   background-color: rgb(120, 2, 2);
+   margin-left: 230px;
+   margin-top: 40px;
+   border-radius: 15px;
+   border-width: 1px;
+   font-size: 10px;
+}
+.homie ul li{
+   list-style: none;
+   width: 88%;
+   height: 100%;
+   font-size: 10px;
+}
+.homie ul li a{
+   color: white;
+   display: block;
+   text-decoration: none;
+   font-size: 17px;
+}
+.homie ul li :hover{
+   color: rgb(165, 146, 3);
+}
+
+/* home section ends */
+
+/* SHOP SECTION */
+
+.shop{
+   padding-top: 350px;
+   text-align: center;
+  
+   
+}
+.navbar2{
+   display: flex;
+   margin-top: 60px;
+   text-align: center;
+   margin-left: 936px;
+}
+
+.navbar2 ul li{
+   list-style: none;
+}
+.navbar2 ul li a{
+   color:rgb(24, 23, 23);
+   display: block;
+   padding: 9px 22px;
+   text-decoration: none;
+}
+.navbar2 ul li a:hover{
+   color:rgb(136, 18, 18);
+}
+.ulfirst1{
+   text-align: center;
+}
+.ulfirstitem1{
+   padding-left: 23px;
+   padding-right: 14px;
+   padding-bottom: 19px;
+   padding-top: 13px;
+   font-family: 'Inter', sans-serif;
+   font-size: 23px;
+}
+.shopcategories{
+   display: flex;
+   padding-left: 200px;
+   padding-right: 100px;
+   padding-top: 26px;
+   padding-bottom: 22px;
+   font-family: 'Inter', sans-serif;
+   font-size: 20px;
+   font-weight: 300;
+}
+
+.electronics{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   padding-top: 50px;
+   list-style: none;
+   text-decoration: none;
+}
+.elecitems{
+   height: 443px;
+    margin: 10px;
+    margin-bottom: 38px;
+    padding: 26px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 31px;
+   box-shadow: 7px 5px 10px rgb(56 35 35 / 60%);
+   align-items: center;
+   justify-content: center;
+   text-align:center;
+   font-size: 22px;
+   font-weight: 100;
+   font-family: 'Work Sans', sans-serif;
+   list-style: none;
+   text-decoration: none;
+}
+.container a{
+   list-style: none;
+   text-decoration: none;
+   color: black;
+}
+.electronics a{
+   list-style: none;
+   text-decoration: none;
+}
+.poop{
+   color: green;
+}
+.elecimg{
+   width: 80%;
+   height: 70%;
+   padding-top: 18px;
+   padding-left: 9px;
+}
+
+.foot{
+   display: grid;
+   text-align: center;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   background-color: rgb(176, 176, 176);
+   padding-top: 20px;
+   margin-top: 50px;
+}
+.imli{
+   font-weight: 550;
+   font-size: 25px;
+   padding-top: 30px;
+}
+.omli{
+   list-style: none;
+   padding-top: 10px;
+}
+.fc{
+   padding-top: 10px;
+}
+footer ul li{
+   list-style: none;
+}
+footer ul li a{
+   color: black;
+   display: block;
+   text-decoration: none;
+}

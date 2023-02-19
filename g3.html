@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5c9e34ae72.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chango&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Work+Sans:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600&display=swap" rel="stylesheet">
+    <title>Fresh Broccoli</title>
+    <style>
+        html{
+    scroll-behavior: smooth;
+}
+
+        *{
+   padding:0;
+   margin:0;
+}
+:root{--navbar-height: 59px}
+.sticky{
+   position: fixed;
+   width: 100%;
+}
+.header{
+   background-color: white;
+   box-shadow: 0px 8px 12px rgba(56, 35, 35, 0.599);
+}
+.logo{
+   display: flex;
+   padding-left: 90px;
+}
+.sitename{
+   padding-top: 44px;
+   padding-left: 29px;
+   font-family: 'Comfortaa', cursive;
+   font-size: 45px;
+}
+.navbar{
+   display: flex;
+   align-items: center;
+   height: 119px;
+}
+.navbar ul{
+   display: flex;
+}
+
+.navbar ul li{
+   list-style: none;
+}
+.navbar ul li a{
+   color:rgb(24, 23, 23);
+   display: block;
+   padding: 9px 22px;
+   text-decoration: none;
+}
+.navbar ul li :hover{
+   color:rgb(136, 18, 18);
+}
+.pfp{
+   height: 59px;
+   border-radius: 29px;
+   margin-top: 15px;
+   margin-left: 29px;
+   margin-bottom: 15px;
+}
+
+.ulfirst{
+   display: flex;
+   padding-left: 100px;
+}
+.ulfirstitem{
+   list-style: none;
+   padding-left: 10px;
+   padding-right:30px;
+   font-size: 20px;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 600;
+}
+.jhabi{
+   padding-left: 50px;
+}
+/* home section */
+.home{
+    padding-top: 180px;
+    display: grid;
+    grid-template-columns: 4fr 3fr;
+    
+}
+.contentbox{
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 0.056);
+}
+.foot{
+   display: grid;
+   text-align: center;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   background-color: rgb(176, 176, 176);
+   padding-top: 20px;
+   margin-top: 50px;
+}
+.imli{
+   font-weight: 550;
+   font-size: 25px;
+   padding-top: 30px;
+}
+.omli{
+   list-style: none;
+   padding-top: 10px;
+}
+.fc{
+   padding-top: 10px;
+}
+.searchbar{
+ 
+ margin-left: 100px;
+ margin-right: 50px;
+ border-style: solid;
+ height: 40%;
+ width: 28%;
+ border-radius: 26px;
+ background-color: rgba(250, 235, 215, 0.604);
+ border-color: white;
+}
+.searchbar input{
+ background: transparent;
+ flex: 1;
+ border: 0;
+ outline: none;
+ padding-top: 7px;
+ padding-left: 10px;
+ padding-right: 280px;
+ font-size: 20px;
+ font-family: 'Poppins', sans-serif;
+}
+::placeholder{color: rgb(98, 51, 4);}
+.searchbar button i{
+ width: 20px;
+ height: 10px;
+ 
+}
+.searchbar button{
+ background: #0000003d;
+ cursor: pointer;
+ width: 35px;
+ height: 35px;
+ border: 0;
+ border-radius: 50%;
+ padding-left: 0px;
+ padding-right: 0px;
+ padding-bottom: 0px;
+ margin-bottom: 3px;
+}
+    </style>
+</head>
+<body>
+    <header class="header sticky">
+        <nav class="navbar">
+            <div class="logo">
+                <img src = "chothi.webp" class = "pfp">
+                <span id = "sitename" style = "padding-top: 16px; padding-left: 22px; font-family: 'Chango', cursive; font-weight: bolder; font-size: 38px;">sellerq.</span>
+            </div>
+            <div class="searchbar">
+                <form action = "https://www.google.com/search" method = "get">
+                    <input type = "text" placeholder = "search anything         " name = "q" >
+                    <button type = "submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+            </div>
+            <ul class = "ulfirst">
+                <li class="ulfirstitem"><a href="index.html">home</a></li>
+                <li class="ulfirstitem"><a href="index.html">shop</a></li>
+                <li class="ulfirstitem"><a href="#footwear">contact us</a></li>
+                <li style = "font-family: 'Montserrat', sans-serif; padding-bottom:12px;"><i class="fa-solid fa-user fa-2x" style="padding-top: 8px; padding-left: 60px; "></i>Login</li>
+                <li style = "font-family: 'Montserrat', sans-serif; padding-bottom: 12px;"><i class="fa-solid fa-cart-shopping fa-2x" style="padding-top: 8px; padding-left: 30px"></i>Cart</li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="home">
+        <div class="contentbox" style = "padding-left: 130px;" >
+            <img src = "g3.png" style="width:56%; height: 78%; padding-left: 28px;"><br><br><br>
+            <span style = " font-family: 'Inter', sans-serif; font-size: 45px; padding-left: 7px; font-weight: 650;">Fresh Broccoli(organic)</span><br>
+          <span style = " font-family: 'Inter', sans-serif; font-size: 30px; padding-left: 7px; ">Rating:</span><i class="fa-solid fa-star fa-1.5x"></i><i class="fa-solid fa-star fa-1.5x"></i><i class="fa-solid fa-star fa-1.5x"></i><i class="fa-solid fa-star fa-1.5x"></i><i class="fa-solid fa-star fa-1.5x"></i>
+        </div>
+        
+        <div class="contentbox" style = "font-family: 'Inter', sans-serif; font-size: 27px; padding-top: 150px; padding-left: 40px; background-color: rgb(255, 255, 255); ">
+            <span style = "color: green;">$9.50/Kg<br></span><span style="font-size: 20px; color: red;"><s>$15.80/Kg</s></span>&ensp;&ensp;(35% off)<br>
+            Delivered by: monday, 20nd february.<br>
+            Stock availability: In stock<br>
+            Quantity: <span></span><br>Sold by: Malhar fruit vendors<br>
+            <span style = "display: flex ; justify-content: center; align-items: center;"><button style = "margin-top: 30px; margin-left: -360px; margin-right: 34px; padding:10px; background-color: rgb(148, 78, 5); color: white; font-family: 'Inter', sans-serif; font-size: 20px; border-style: solid; border-width: 0px; border-radius: 5px; cursor: pointer;">add to cart</button><br>
+            <button style = "margin-top: 30px;  margin-right: 34px; padding:10px; background-color: rgb(180, 143, 8); color: white; font-family: 'Inter', sans-serif; font-size: 20px; border-style: solid; border-width: 0px; border-radius: 5px; cursor: pointer;">buy now</button></span>
+        </div>
+
+
+
+        
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="foot" id="footwear" style="font-family: 'Inter', sans-serif ;">
+        <div class="footcol"><BR><BR>
+            <span class = "imli">ONLINE SHOPPING</span>
+            <ul class = "omli">
+                
+                <li class="fc"><a href = "www.flipkart.com"></a>Electronics</li>
+                <li class="fc"><a href = "#clothes"></a>Mens' wear</li>
+                <li class="fc"><a href = "#clothes"></a>Womens' wear</li>
+                <li class="fc"><a href = "#clothes"></a>Kids' wear</li>
+                <li class="fc"><a href = "#groceries"></a>groceries and eatables</li>
+            </ul>
+        </div>
+        <div class="footcol"><BR><BR>
+            <span class = "imli">CUSTOMER POLICIES</span>
+            <ul class = "omli">
+                
+                <li class="fc">FAQ</li>
+                <li class="fc">T&C</li>
+                <li class="fc">return policy</li>
+                <li class="fc">shipping</li>
+                <li class="fc">privacy policy</li>
+            </ul>
+        </div>
+        <div class="footcol"><BR><BR><span class = "imli">GET OUR MOBILE APP</span>
+            <ul class = "omli">
+                <li class="fc"><img src = "google-play-png-logo-3799.png"></li>
+                <li class="fc"></li>
+            </ul>
+
+        </div>
+        <div class="footcol"><BR><BR>
+            
+            
+           <span class = "imli">FOLLOW US ON SOCIAL MEDIA</span><br>
+            <a href="https://twitter.com/aditya261004" target="_blank">
+                <i class="fa-brands fa-twitter fa-2x" style="color: rgb(0, 0, 0); padding-top: 40px;"></i>
+            </a>&ensp;
+            
+            
+            <a href="https://www.instagram.com/_adityaat16/" target="_blank">
+                    <i class="fa-brands fa-instagram fa-2x" style="color: rgb(0, 0, 0); padding-top: 40px;"></i>
+                    
+            </a>
+            &ensp;
+        
+            
+            <a href="https://www.linkedin.com/in/aditya-mastud-18289025a/" target="_blank">
+                    <i class="fa-brands fa-linkedin fa-2x" style="color: rgb(0, 0, 0); padding-top: 40px;"></i>
+            </a>
+
+            <br><br>
+            KEEP IN TOUCH<BR><br><BR>
+                Customer service number: 180030009009<br>
+                Mail your feedback at: sellerqworld@gmail.com
+
+               
+                
+
+
+
+        </div>
+    
+    
+    
+    </footer>
+
+
+</body>
+</html>
